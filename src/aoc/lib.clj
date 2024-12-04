@@ -5,6 +5,9 @@
   (parse-input [this txt])
   (solution [this part sample? input]))
 
-(defn parse-lines [regex parse-f txt]
-  (->> (split-lines txt)
-       (map (comp parse-f #(split % regex)))))
+(defn parse-lines
+  ([regex parse-f txt] (->> (split-lines txt)
+                            (map (comp parse-f #(split % regex)))))
+  ([parse-f txt] (map parse-f (split-lines txt))))
+
+(def transpose #(apply map vector %))
