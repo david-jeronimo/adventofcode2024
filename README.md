@@ -7,4 +7,5 @@
 | 3   | [Mull It Over](https://adventofcode.com/2024/day/3)       | 0.016      | 0.012      | [aoc03.clj](src/aoc/aoc03.clj) |
 | 4   | [Ceres Search](https://adventofcode.com/2024/day/4)       | 0.149      | 0.223      | [aoc04.clj](src/aoc/aoc04.clj) |
 | 5   | [Print Queue](https://adventofcode.com/2024/day/5)        | 0.089      | 0.092      | [aoc05.clj](src/aoc/aoc05.clj) |
-| 5   | [Guard Gallivant](https://adventofcode.com/2024/day/6)    | 0.050      | 3.916      | [aoc06.clj](src/aoc/aoc06.clj) |
+| 6   | [Guard Gallivant](https://adventofcode.com/2024/day/6)    | 0.050      | 3.916      | [aoc06.clj](src/aoc/aoc06.clj) |
+| 7   | [Bridge Repair](https://adventofcode.com/2024/day/7)      | 0.126      | 2.505      | [aoc07.clj](src/aoc/aoc07.clj) |
