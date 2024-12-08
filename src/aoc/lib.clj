@@ -25,3 +25,6 @@
        (matrix-positions cell-cond)))
 
 (def transpose #(apply map vector %))
+
+(defn tails [coll]
+  (reductions (fn [s _] (rest s)) coll coll))
