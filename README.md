@@ -10,3 +10,4 @@
 | 6   | [Guard Gallivant](https://adventofcode.com/2024/day/6)       | 0.050      | 3.916      | [aoc06.clj](src/aoc/aoc06.clj) |
 | 7   | [Bridge Repair](https://adventofcode.com/2024/day/7)         | 0.126      | 2.505      | [aoc07.clj](src/aoc/aoc07.clj) |
 | 8   | [Resonant Collinearity](https://adventofcode.com/2024/day/8) | 0.015      | 0.018      | [aoc08.clj](src/aoc/aoc08.clj) |
+| 9   | [Disk Fragmenter](https://adventofcode.com/2024/day/9)       | 0.382      | 1.083      | [aoc09.clj](src/aoc/aoc09.clj) |
