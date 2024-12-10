@@ -24,6 +24,11 @@
   (->> (split-lines txt)
        (matrix-positions cell-cond)))
 
+(defn adj-4 [pos]
+  (map (partial mapv + pos) [[-1 0] [0 -1] [0 1] [1 0]]))
+
+(defn swap [[a b]] [b a])
+
 (def transpose #(apply map vector %))
 
 (defn tails [coll]
