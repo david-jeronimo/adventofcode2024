@@ -12,3 +12,4 @@
 | 8   | [Resonant Collinearity](https://adventofcode.com/2024/day/8) | 0.015      | 0.018      | [aoc08.clj](src/aoc/aoc08.clj) |
 | 9   | [Disk Fragmenter](https://adventofcode.com/2024/day/9)       | 0.382      | 1.083      | [aoc09.clj](src/aoc/aoc09.clj) |
 | 10  | [Hoof It](https://adventofcode.com/2024/day/10)              | 0.099      | 0.099      | [aoc10.clj](src/aoc/aoc10.clj) |
+| 11  | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)    | 0.022      | 0.286      | [aoc11.clj](src/aoc/aoc11.clj) |
