@@ -33,3 +33,10 @@
 
 (defn tails [coll]
   (reductions (fn [s _] (rest s)) coll coll))
+
+(defn take-until [pred coll]
+  (lazy-seq
+    (when-let [[f & r] (seq coll)]
+      (if (pred f)
+        [f]
+        (cons f (take-until pred r))))))
