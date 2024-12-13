@@ -14,3 +14,4 @@
 | 10  | [Hoof It](https://adventofcode.com/2024/day/10)              | 0.099      | 0.099      | [aoc10.clj](src/aoc/aoc10.clj) |
 | 11  | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)    | 0.022      | 0.286      | [aoc11.clj](src/aoc/aoc11.clj) |
 | 12  | [Garden Groups](https://adventofcode.com/2024/day/12)        | 0.494      | 0.524      | [aoc12.clj](src/aoc/aoc12.clj) |
+| 13  | [Claw Contraption](https://adventofcode.com/2024/day/13)     | 0.075      | 0.174      | [aoc13.clj](src/aoc/aoc13.clj) |
