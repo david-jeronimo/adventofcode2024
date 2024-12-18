@@ -15,3 +15,4 @@
 | 11  | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)    | 0.022      | 0.286      | [aoc11.clj](src/aoc/aoc11.clj) |
 | 12  | [Garden Groups](https://adventofcode.com/2024/day/12)        | 0.494      | 0.524      | [aoc12.clj](src/aoc/aoc12.clj) |
 | 13  | [Claw Contraption](https://adventofcode.com/2024/day/13)     | 0.075      | 0.174      | [aoc13.clj](src/aoc/aoc13.clj) |
+| 14  | [Restroom Redoubt](https://adventofcode.com/2024/day/14)     | 0.020      | 0.599      | [aoc14.clj](src/aoc/aoc14.clj) |
