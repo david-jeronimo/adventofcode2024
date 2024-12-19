@@ -19,3 +19,4 @@
 | 15  | [Warehouse Woes](https://adventofcode.com/2024/day/15)         | 0.064      | 0.171      | [aoc15.clj](src/aoc/aoc15.clj) |
 | 16  | [Reindeer Maze](https://adventofcode.com/2024/day/16)          | 0.681      | 1.111      | [aoc16.clj](src/aoc/aoc16.clj) |
 | 17  | [Chronospatial Computer](https://adventofcode.com/2024/day/17) | 0.003      | -          | [aoc17.clj](src/aoc/aoc17.clj) |
+| 18  | [RAM Run](https://adventofcode.com/2024/day/18)                | 0.144      | 0.769      | [aoc18.clj](src/aoc/aoc18.clj) |
