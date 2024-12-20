@@ -21,3 +21,4 @@
 | 17  | [Chronospatial Computer](https://adventofcode.com/2024/day/17) | 0.003      | -          | [aoc17.clj](src/aoc/aoc17.clj) |
 | 18  | [RAM Run](https://adventofcode.com/2024/day/18)                | 0.144      | 0.769      | [aoc18.clj](src/aoc/aoc18.clj) |
 | 19  | [Linen Layout](https://adventofcode.com/2024/day/19)           | 2.017      | 3.285      | [aoc19.clj](src/aoc/aoc19.clj) |
+| 20  | [Race Condition](https://adventofcode.com/2024/day/20)         | 0.941      | 15.869     | [aoc20.clj](src/aoc/aoc20.clj) |

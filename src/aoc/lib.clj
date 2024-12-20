@@ -40,3 +40,7 @@
       (if (pred f)
         [f]
         (cons f (take-until pred r))))))
+
+(defn distance [p1 p2]
+  (->> (map (comp abs -) p1 p2)
+       (apply +)))
