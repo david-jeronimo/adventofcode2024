@@ -24,3 +24,4 @@
 | 20  | [Race Condition](https://adventofcode.com/2024/day/20)         | 0.941      | 15.869     | [aoc20.clj](src/aoc/aoc20.clj) |
 | 21  | [Keypad Conundrum](https://adventofcode.com/2024/day/21)       |            |            |                                |
 | 22  | [Monkey Market](https://adventofcode.com/2024/day/22)          | 0.254      | 6.033      | [aoc22.clj](src/aoc/aoc22.clj) |
+| 23  | [LAN Party](https://adventofcode.com/2024/day/23)              | 0.027      | 4.305      | [aoc23.clj](src/aoc/aoc23.clj) |
