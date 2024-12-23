@@ -1,5 +1,5 @@
 (ns aoc.aoc17
-  (:use [aoc.lib :only [Aoc parse-lines]]
+  (:use [aoc.lib :only [Aoc parse-lines tails to-decimal-base]]
         [clojure.math :only [floor-div]]
         [clojure.math.numeric-tower :only [expt]]
         [clojure.string :only [split]]))
@@ -34,7 +34,9 @@
                               p1
                               (+ 2 pointer))
                     output (if (= op 5)
-                             (-> (combo registers p1) (rem 8) (#(conj output %)))
+                             (-> (combo registers p1)
+                                 (rem 8)
+                                 (#(conj output %)))
                              output)]
                 {:registers registers :pointer pointer :program program :output output}))))
 
@@ -42,6 +44,16 @@
   (->> (iterate exec {:pointer 0 :registers registers :program program :output []})
        (take-while some?)
        (map :output)))
+
+(defn add-digit [program]
+  (fn [[acc _] segment]
+    (let [program-result (fn [n] (-> (run-program program {:A n})
+                                     last))
+          digit (->> (range)
+                     (filter #(= segment (program-result (+ (* 8 acc) %))))
+                     first)]
+      [(-> (* acc 8) (+ digit))
+       digit])))
 
 (deftype AocSol [] Aoc
 
@@ -60,4 +72,10 @@
                     last
                     (interpose ",")
                     (apply str))
-      :PartTwo nil)))
+      :PartTwo (->> (tails instructions)
+                    reverse
+                    rest
+                    (reductions (add-digit instructions) [0 nil])
+                    (map second)
+                    rest
+                    (to-decimal-base 8)))))

@@ -1,5 +1,7 @@
 (ns aoc.lib
-  (:use [clojure.string :only [split split-lines]]))
+  (:use [clojure.string :only [split split-lines]]
+        [clojure.math :only [floor-div]]
+        [clojure.math.numeric-tower :only [expt]]))
 
 (defprotocol Aoc
   (parse-input [this txt])
@@ -44,3 +46,8 @@
 (defn distance [p1 p2]
   (->> (map (comp abs -) p1 p2)
        (apply +)))
+
+(defn to-decimal-base [base number]
+  (->> (reverse number)
+       (map-indexed (fn [i n] (* n (expt base i))))
+       (reduce +)))
