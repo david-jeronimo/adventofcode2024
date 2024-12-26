@@ -22,7 +22,7 @@
 | 18  | [RAM Run](https://adventofcode.com/2024/day/18)                | 0.144      | 0.769      | [aoc18.clj](src/aoc/aoc18.clj) |
 | 19  | [Linen Layout](https://adventofcode.com/2024/day/19)           | 2.017      | 3.285      | [aoc19.clj](src/aoc/aoc19.clj) |
 | 20  | [Race Condition](https://adventofcode.com/2024/day/20)         | 0.941      | 15.869     | [aoc20.clj](src/aoc/aoc20.clj) |
-| 21  | [Keypad Conundrum](https://adventofcode.com/2024/day/21)       |            |            |                                |
+| 21  | [Keypad Conundrum](https://adventofcode.com/2024/day/21)       | 0.011      | 0.029      | [aoc21.clj](src/aoc/aoc21.clj) |
 | 22  | [Monkey Market](https://adventofcode.com/2024/day/22)          | 0.254      | 6.033      | [aoc22.clj](src/aoc/aoc22.clj) |
 | 23  | [LAN Party](https://adventofcode.com/2024/day/23)              | 0.027      | 4.305      | [aoc23.clj](src/aoc/aoc23.clj) |
 | 24  | [Crossed Wires](https://adventofcode.com/2024/day/24)          |            |            |                                |
